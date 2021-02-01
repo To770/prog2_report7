@@ -13,9 +13,7 @@ void sort(int array[], int size){
                 array[j] = num;
             }
         }
-    }
-    for(int i = 0; i < size; i++){
-        printf("%d ", array[i]);
+    printf("%d ", array[i]);
     }
 }
 
