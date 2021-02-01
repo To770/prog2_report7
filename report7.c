@@ -7,8 +7,8 @@ void sort(int array[], int size);/*関数プロトタイプ宣言*/
 void sort(int array[], int size){
     for(int i = 0; i < size; i++){
         for(int j = i + 1; j < size; j++){
+            int num = array[i];
             if(array[i] < array[j]){
-                int num = array[i];
                 array[i] = array[j];
                 array[j] = num;
             }
